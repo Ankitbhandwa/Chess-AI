@@ -30,8 +30,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           sonar-scanner \
-            -Dsonar.organization=YOUR_SONARCLOUD_ORG_NAME \  # Replace this!
-            -Dsonar.projectKey=chess_ai \
+            -Dsonar.organization=ankitbhandwa \  # Replace this!
+            -Dsonar.projectKey=ankitbhandwa_chess_ai \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.sources=. \
             -Dsonar.exclusions=**/*.jpg,**/*.png,**/*.gif \
