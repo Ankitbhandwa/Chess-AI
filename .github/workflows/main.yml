@@ -31,7 +31,7 @@ jobs:
         run: |
           sonar-scanner \
             -Dsonar.organization=ankitbhandwa \
-            -Dsonar.projectKey=ankitbhandwa_chess_ai \
+            -Dsonar.projectKey=ankitbhandwa_Chess_AI \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.sources=. \
             -Dsonar.exclusions=**/*.jpg,**/*.png,**/*.gif \
